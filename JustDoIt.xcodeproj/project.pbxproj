@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67419BBBE9A2B30337719025 /* Pods_JustDoIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96628E1E421EF3FF363A240A /* Pods_JustDoIt.framework */; };
 		A54CD87320582E41004AF828 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54CD87220582E41004AF828 /* AppDelegate.swift */; };
 		A54CD87520582E41004AF828 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54CD87420582E41004AF828 /* TodoListViewController.swift */; };
 		A54CD87820582E41004AF828 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54CD87620582E41004AF828 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 		A5D2C50D207296D80062BF69 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A5D2C509207296D80062BF69 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A5D2C5122072B3B20062BF69 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D2C5112072B3B20062BF69 /* Category.swift */; };
 		A5D2C5142072B4220062BF69 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D2C5132072B4220062BF69 /* Item.swift */; };
+		A5D2C516207547B70062BF69 /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D2C515207547B60062BF69 /* SwipeTableViewController.swift */; };
 		A5F2513A206FF8E100A01509 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F25139206FF8E100A01509 /* CategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +39,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3553AF6C35546BB04AC1865A /* Pods-JustDoIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustDoIt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JustDoIt/Pods-JustDoIt.debug.xcconfig"; sourceTree = "<group>"; };
+		96628E1E421EF3FF363A240A /* Pods_JustDoIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JustDoIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A54CD86F20582E41004AF828 /* JustDoIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustDoIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A54CD87220582E41004AF828 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A54CD87420582E41004AF828 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +52,9 @@
 		A5D2C509207296D80062BF69 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
 		A5D2C5112072B3B20062BF69 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		A5D2C5132072B4220062BF69 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		A5D2C515207547B60062BF69 /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
 		A5F25139206FF8E100A01509 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		B95B48B567EB84F43AB29A8B /* Pods-JustDoIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustDoIt.release.xcconfig"; path = "Pods/Target Support Files/Pods-JustDoIt/Pods-JustDoIt.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 			files = (
 				A5D2C50C207296D80062BF69 /* RealmSwift.framework in Frameworks */,
 				A5D2C50A207296D80062BF69 /* Realm.framework in Frameworks */,
+				67419BBBE9A2B30337719025 /* Pods_JustDoIt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +85,7 @@
 			children = (
 				A5F25139206FF8E100A01509 /* CategoryViewController.swift */,
 				A54CD87420582E41004AF828 /* TodoListViewController.swift */,
+				A5D2C515207547B60062BF69 /* SwipeTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -106,6 +114,8 @@
 				A5D2C509207296D80062BF69 /* RealmSwift.framework */,
 				A54CD87120582E41004AF828 /* JustDoIt */,
 				A54CD87020582E41004AF828 /* Products */,
+				BC5CCAFF4F4AFE400F632C7A /* Pods */,
+				B17C31A67FE65B758A6F0808 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +140,23 @@
 			path = JustDoIt;
 			sourceTree = "<group>";
 		};
+		B17C31A67FE65B758A6F0808 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96628E1E421EF3FF363A240A /* Pods_JustDoIt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC5CCAFF4F4AFE400F632C7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3553AF6C35546BB04AC1865A /* Pods-JustDoIt.debug.xcconfig */,
+				B95B48B567EB84F43AB29A8B /* Pods-JustDoIt.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,10 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A54CD88120582E41004AF828 /* Build configuration list for PBXNativeTarget "JustDoIt" */;
 			buildPhases = (
+				A8A28D036193455172FF0FFE /* [CP] Check Pods Manifest.lock */,
 				A54CD86B20582E41004AF828 /* Sources */,
 				A54CD86C20582E41004AF828 /* Frameworks */,
 				A54CD86D20582E41004AF828 /* Resources */,
 				A5D2C50E207296D80062BF69 /* Embed Frameworks */,
+				A5132332C80D6B91FEEC5384 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -198,6 +227,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A5132332C80D6B91FEEC5384 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JustDoIt/Pods-JustDoIt-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JustDoIt/Pods-JustDoIt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8A28D036193455172FF0FFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JustDoIt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A54CD86B20582E41004AF828 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -207,6 +277,7 @@
 				A5D2C5122072B3B20062BF69 /* Category.swift in Sources */,
 				A54CD87520582E41004AF828 /* TodoListViewController.swift in Sources */,
 				A5D2C5142072B4220062BF69 /* Item.swift in Sources */,
+				A5D2C516207547B70062BF69 /* SwipeTableViewController.swift in Sources */,
 				A54CD87320582E41004AF828 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +413,7 @@
 		};
 		A54CD88220582E41004AF828 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3553AF6C35546BB04AC1865A /* Pods-JustDoIt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -361,6 +433,7 @@
 		};
 		A54CD88320582E41004AF828 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B95B48B567EB84F43AB29A8B /* Pods-JustDoIt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
